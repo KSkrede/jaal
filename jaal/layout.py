@@ -50,7 +50,7 @@ KELLY_COLORS_HEX = [
     ]
 
 DEFAULT_OPTIONS = {
-    'height': '600px',
+    'height': '1200px',
     'width': '100%',
     'interaction':{'hover': True},
     # 'edges': {'scaling': {'min': 1, 'max': 5}},
