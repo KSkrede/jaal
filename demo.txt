@@ -1,0 +1,2 @@
+country=='Italy' or country=='Norway'
+employees>8

@@ -1,80 +1,80 @@
-title,Team,id
-SYS-001,Team-1,0
-SYS-002,Team-2,1
-SYS-003,Team-3,2
-SYS-004,Team-4,3
-SYS-005,Team-5,4
-SYS-006,Team-6,5
-SYS-007,Team-7,6
-SYS-008,Team-8,7
-SYS-009,Team-9,8
-SYS-010,Team-10,9
-SYS-011,Team-11,10
-SYS-012,Team-1,11
-SYS-013,Team-13,12
-SYS-014,Team-14,13
-SYS-015,Team-15,14
-SYS-016,Team-16,15
-SYS-017,Team-17,16
-SYS-018,Team-18,17
-SYS-019,Team-19,18
-SYS-020,Team-20,19
-SYS-021,Team-21,20
-SYS-022,Team-22,21
-SYS-023,Team-23,22
-SYS-024,Team-24,23
-SYS-025,Team-25,24
-SYS-026,Team-26,25
-SYS-027,Team-2,26
-SYS-028,Team-28,27
-SYS-029,Team-29,28
-SYS-030,Team-30,29
-SYS-031,Team-31,30
-SYS-032,Team-32,31
-SYS-033,Team-33,32
-SYS-034,Team-34,33
-SYS-035,Team-35,34
-SYS-036,Team-36,35
-SYS-037,Team-37,36
-SYS-038,Team-38,37
-SYS-039,Team-39,38
-SYS-040,Team-40,39
-SYS-041,Team-41,40
-SYS-042,Team-42,41
-SYS-043,Team-43,42
-SYS-044,Team-44,43
-SYS-045,Team-45,44
-SYS-046,Team-46,45
-SYS-047,Team-40,46
-SYS-048,Team-48,47
-SYS-049,Team-49,48
-SYS-050,Team-50,49
-SYS-051,Team-51,50
-SYS-052,Team-52,51
-SYS-053,Team-53,52
-SYS-054,Team-54,53
-SYS-055,Team-55,54
-SYS-056,Team-56,55
-SYS-057,Team-57,56
-SYS-058,Team-58,57
-SYS-059,Team-59,58
-SYS-060,Team-6,59
-SYS-061,Team-1,60
-SYS-062,Team-2,61
-SYS-063,Team-3,62
-SYS-064,Team-4,63
-SYS-065,Team-5,64
-SYS-066,Team-6,65
-SYS-067,Team-7,66
-SYS-068,Team-8,67
-SYS-069,Team-9,68
-SYS-070,Team-10,69
-SYS-071,Team-11,70
-SYS-072,Team-12,71
-SYS-073,Team-13,72
-SYS-074,Team-14,73
-SYS-075,Team-15,74
-SYS-076,Team-16,75
-SYS-077,Team-17,76
-SYS-078,Team-18,77
-SYS-079,Team-19,78
+id,title,teams,status,type,environment,country,owner,last_updated,description,criticality,employees,budget
+0,SYS-001,"Team-1",Online,Database,Production,USA,John Doe,2024-06-27,Main user database,High,10,1000000
+1,SYS-002,"Team-2, Team-5",Maintenance,Application Server,Production,Canada,Jane Smith,2024-06-25,Application server for backend services,Medium,15,500000
+2,SYS-003,"Team-3, Team-7",Online,Web Server,Testing,Germany,Team-3,2024-06-26,Frontend web server,Low,8,200000
+3,SYS-004,"Team-4",Online,Load Balancer,Production,France,John Doe,2024-06-26,Distributes traffic among servers,High,12,800000
+4,SYS-005,"Team-5",Offline,Cache Server,Production,UK,Jane Smith,2024-06-24,Speeds up data retrieval,Medium,7,300000
+5,SYS-006,"Team-6",Online,Message Queue,Production,Japan,Team-6,2024-06-23,Handles asynchronous communication,Medium,10,400000
+6,SYS-007,"Team-7",Online,File Server,Production,India,John Doe,2024-06-22,Stores and manages files,Low,5,150000
+7,SYS-008,"Team-8",Maintenance,Email Server,Production,Australia,Jane Smith,2024-06-21,Manages email services,Medium,9,250000
+8,SYS-009,"Team-9",Online,DNS Server,Production,China,Team-9,2024-06-20,Resolves domain names,High,11,700000
+9,SYS-010,"Team-10",Online,Application Server,Development,Italy,John Doe,2024-06-19,App server for development,Medium,14,450000
+10,SYS-011,"Team-11",Offline,Database,Testing,Brazil,Jane Smith,2024-06-18,Test user database,Low,6,200000
+11,SYS-012,"Team-1",Online,API Gateway,Production,Spain,Team-1,2024-06-17,Manages API requests,High,13,900000
+12,SYS-013,"Team-13",Online,Web Server,Production,Netherlands,Team-13,2024-06-16,Frontend web server,Medium,8,350000
+13,SYS-014,"Team-14",Offline,Data Warehouse,Production,Russia,John Doe,2024-06-15,Stores large volumes of data,High,18,1200000
+14,SYS-015,"Team-15",Online,Logging Server,Production,South Africa,Jane Smith,2024-06-14,Aggregates logs from various systems,Medium,10,400000
+15,SYS-016,"Team-16",Online,Monitoring Server,Production,Mexico,Team-16,2024-06-13,Monitors system health,High,9,800000
+16,SYS-017,"Team-17",Maintenance,Backup Server,Production,South Korea,John Doe,2024-06-12,Handles data backups,High,7,600000
+17,SYS-018,"Team-18",Online,Application Server,Production,Argentina,Jane Smith,2024-06-11,App server for analytics,Medium,13,550000
+18,SYS-019,"Team-19",Offline,Cache Server,Production,Chile,Team-19,2024-06-10,Caches frequently accessed data,Medium,6,250000
+19,SYS-020,"Team-20",Online,Message Queue,Production,Sweden,John Doe,2024-06-09,Handles async messages,Medium,11,400000
+20,SYS-021,"Team-21",Online,File Server,Production,Norway,Jane Smith,2024-06-08,Manages file storage,Low,5,150000
+21,SYS-022,"Team-22",Online,Email Server,Production,Denmark,Team-22,2024-06-07,Handles email communications,Medium,9,300000
+22,SYS-023,"Team-23",Offline,DNS Server,Production,Finland,John Doe,2024-06-06,Resolves domain names,High,12,700000
+23,SYS-024,"Team-24",Online,Application Server,Development,Poland,Jane Smith,2024-06-05,Development app server,Medium,14,500000
+24,SYS-025,"Team-25",Online,Database,Testing,Austria,Team-25,2024-06-04,Test database,Low,6,200000
+25,SYS-026,"Team-26",Online,API Gateway,Production,Hungary,John Doe,2024-06-03,Manages API requests,High,13,850000
+26,SYS-027,"Team-2, Team-28",Online,Web Server,Production,Belgium,Jane Smith,2024-06-02,Frontend web server,Medium,8,300000
+27,SYS-028,"Team-28",Online,Data Warehouse,Production,Portugal,Team-28,2024-06-01,Large scale data storage,High,17,1100000
+28,SYS-029,"Team-29",Offline,Logging Server,Production,Czech Republic,John Doe,2024-05-31,Collects system logs,Medium,10,400000
+29,SYS-030,"Team-30",Online,Monitoring Server,Production,Greece,Jane Smith,2024-05-30,Monitors system metrics,High,9,700000
+30,SYS-031,"Team-31",Online,Backup Server,Production,Romania,Team-31,2024-05-29,Handles system backups,High,7,600000
+31,SYS-032,"Team-32",Online,Application Server,Production,Switzerland,John Doe,2024-05-28,App server for processing,Medium,14,450000
+32,SYS-033,"Team-33",Offline,Cache Server,Production,Bulgaria,Jane Smith,2024-05-27,Speeds up data retrieval,Medium,6,300000
+33,SYS-034,"Team-34",Online,Message Queue,Production,Ireland,Team-34,2024-05-26,Handles async messages,Medium,11,400000
+34,SYS-035,"Team-35",Online,File Server,Production,Croatia,John Doe,2024-05-25,Stores and manages files,Low,5,150000
+35,SYS-036,"Team-36",Maintenance,Email Server,Production,Slovenia,Jane Smith,2024-05-24,Manages email services,Medium,9,300000
+36,SYS-037,"Team-37",Online,DNS Server,Production,Slovakia,Team-37,2024-05-23,Resolves domain names,High,12,700000
+37,SYS-038,"Team-38",Online,Application Server,Development,Luxembourg,John Doe,2024-05-22,App server for development,Medium,14,450000
+38,SYS-039,"Team-39",Offline,Database,Testing,Estonia,Jane Smith,2024-05-21,Test user database,Low,6,200000
+39,SYS-040,"Team-40",Online,API Gateway,Production,Latvia,Team-40,2024-05-20,Manages API requests,High,13,900000
+40,SYS-041,"Team-41",Online,Web Server,Production,Lithuania,John Doe,2024-05-19,Frontend web server,Medium,8,350000
+41,SYS-042,"Team-42",Online,Data Warehouse,Production,Malta,Jane Smith,2024-05-18,Stores large volumes of data,High,18,1200000
+42,SYS-043,"Team-43",Offline,Logging Server,Production,Cyprus,Team-43,2024-05-17,Aggregates logs,Medium,10,400000
+43,SYS-044,"Team-44",Online,Monitoring Server,Production,Iceland,John Doe,2024-05-16,Monitors system health,High,9,800000
+44,SYS-045,"Team-45",Online,Backup Server,Production,Greenland,Jane Smith,2024-05-15,Handles data backups,High,7,600000
+45,SYS-046,"Team-46",Online,Application Server,Production,New Zealand,Team-46,2024-05-14,App server for analytics,Medium,14,550000
+46,SYS-047,"Team-40",Online,Cache Server,Production,South Korea,John Doe,2024-05-13,Caches frequently accessed data,Medium,6,300000
+47,SYS-048,"Team-48",Online,Message Queue,Production,Norway,Jane Smith,2024-05-12,Handles async communication,Medium,11,400000
+48,SYS-049,"Team-49",Online,File Server,Production,Sweden,Team-49,2024-05-11,Manages file storage,Low,5,150000
+49,SYS-050,"Team-50",Online,Email Server,Production,Finland,John Doe,2024-05-10,Handles email communications,Medium,9,300000
+50,SYS-051,"Team-51",Offline,DNS Server,Production,Denmark,Jane Smith,2024-05-09,Resolves domain names,High,12,700000
+51,SYS-052,"Team-52",Online,Application Server,Development,Germany,Team-52,2024-05-08,App server for development,Medium,14,450000
+52,SYS-053,"Team-53",Online,Database,Testing,France,John Doe,2024-05-07,Test user database,Low,6,200000
+53,SYS-054,"Team-54",Online,API Gateway,Production,Italy,Jane Smith,2024-05-06,Manages API requests,High,13,850000
+54,SYS-055,"Team-55",Online,Web Server,Production,Spain,Team-55,2024-05-05,Frontend web server,Medium,8,350000
+55,SYS-056,"Team-56",Offline,Data Warehouse,Production,Portugal,John Doe,2024-05-04,Stores large volumes of data,High,18,1200000
+56,SYS-057,"Team-57",Online,Logging Server,Production,Belgium,Jane Smith,2024-05-03,Aggregates logs from various systems,Medium,10,400000
+57,SYS-058,"Team-58",Online,Monitoring Server,Production,Netherlands,Team-58,2024-05-02,Monitors system health,High,9,800000
+58,SYS-059,"Team-59",Maintenance,Backup Server,Production,Austria,John Doe,2024-05-01,Handles data backups,High,7,600000
+59,SYS-060,"Team-6",Online,Application Server,Production,Switzerland,Jane Smith,2024-04-30,App server for analytics,Medium,14,550000
+60,SYS-061,"Team-1",Online,Cache Server,Production,Poland,Team-1,2024-04-29,Caches frequently accessed data,Medium,6,300000
+61,SYS-062,"Team-2",Online,Message Queue,Production,Hungary,John Doe,2024-04-28,Handles async messages,Medium,11,400000
+62,SYS-063,"Team-3",Online,File Server,Production,Czech Republic,Jane Smith,2024-04-27,Manages file storage,Low,5,150000
+63,SYS-064,"Team-4",Online,Email Server,Production,Greece,Team-4,2024-04-26,Handles email communications,Medium,9,300000
+64,SYS-065,"Team-5",Online,DNS Server,Production,Romania,John Doe,2024-04-25,Resolves domain names,High,12,700000
+65,SYS-066,"Team-6",Online,Application Server,Development,Norway,Jane Smith,2024-04-24,App server for development,Medium,14,450000
+66,SYS-067,"Team-7",Offline,Database,Testing,Sweden,Team-7,2024-04-23,Test user database,Low,6,200000
+67,SYS-068,"Team-8",Online,API Gateway,Production,Denmark,John Doe,2024-04-22,Manages API requests,High,13,900000
+68,SYS-069,"Team-9",Online,Web Server,Production,Finland,Jane Smith,2024-04-21,Frontend web server,Medium,8,350000
+69,SYS-070,"Team-10",Online,Data Warehouse,Production,Germany,Team-10,2024-04-20,Stores large volumes of data,High,17,1100000
+70,SYS-071,"Team-11",Offline,Logging Server,Production,France,John Doe,2024-04-19,Aggregates logs from various systems,Medium,10,400000
+71,SYS-072,"Team-12",Online,Monitoring Server,Production,Italy,Jane Smith,2024-04-18,Monitors system health,High,9,800000
+72,SYS-073,"Team-13",Maintenance,Backup Server,Production,Spain,Team-13,2024-04-17,Handles data backups,High,7,600000
+73,SYS-074,"Team-14",Online,Application Server,Production,Portugal,John Doe,2024-04-16,App server for analytics,Medium,14,550000
+74,SYS-075,"Team-15",Online,Cache Server,Production,Belgium,Jane Smith,2024-04-15,Caches frequently accessed data,Medium,6,300000
+75,SYS-076,"Team-16",Online,Message Queue,Production,Netherlands,Team-16,2024-04-14,Handles async messages,Medium,11,400000
+76,SYS-077,"Team-17",Online,File Server,Production,Austria,John Doe,2024-04-13,Manages file storage,Low,5,150000
+77,SYS-078,"Team-18",Maintenance,Email Server,Production,Switzerland,Jane Smith,2024-04-12,Manages email services,Medium,9,300000
+78,SYS-079,"Team-19",Online,DNS Server,Production,Poland,Team-19,2024-04-11,Resolves domain names,High,12,700000
